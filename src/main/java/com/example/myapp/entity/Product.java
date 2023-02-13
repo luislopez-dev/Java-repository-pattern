@@ -26,8 +26,7 @@ public class Product {
     @Column(name = "imgLink")
     private String imgLink;
 
-    public Product(int id) {
-        this.id = id;
+    public Product() {
     }
 
     public Product(int id, String name, float price, int stock, String description, String imgLink) {
